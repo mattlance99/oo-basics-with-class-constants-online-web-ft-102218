@@ -7,6 +7,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    BRANDS.each do |brand|
+    puts "$$$$THis is the #{brand}"
+    end
   end
 
   def cobble
@@ -14,7 +17,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  BRANDS.each do |brand|
-  puts "$$$$THis is the #{brand}"
-  end
 end
