@@ -14,4 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  BRANDS.each do |brand|
+  puts "$$$$THis is the #{brand}"
+  end
 end
