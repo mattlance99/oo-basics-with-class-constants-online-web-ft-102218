@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     
     BRANDS << brand
+    BRANDS(item) unless my_array.include?(item1)
   end
 
   def cobble
